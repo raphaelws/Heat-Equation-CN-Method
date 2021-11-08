@@ -66,6 +66,6 @@ for j in range(nsteps):
         plt.ylabel("u")
         plt.legend(loc=1, prop={'size': 10})
         plt.title("t = %2.2f"%(dt*(j+1)))
-        plt.savefig("./heat-evolution/"+filename,format="jpg")
+        plt.savefig(filename,format="jpg")
         plt.clf()
         k += 1
